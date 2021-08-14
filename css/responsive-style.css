@@ -1,0 +1,337 @@
+@media screen and (min-width: 375px) {
+  .navbar .nav {
+    display: none;
+  }
+  .navbar .hamburger {
+    display: block;
+  }
+  .home-section {
+    height: 70vh;
+    background-image: url("../images/mobile/image-header.jpg");
+  }
+  .home-section h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: -10rem;
+  }
+  .services-section .service-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .services-section .service-container .egg-box {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    height: 65vh;
+  }
+  .services-section .service-container .transform-box {
+    height: 65vh;
+  }
+  .services-section .service-container .transform-box h2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    text-align: center;
+  }
+  .services-section .service-container .transform-box p {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .services-section .service-container .transform-box a {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 1rem 0;
+  }
+  .services-section .service-container .glass-box {
+    height: 65vh;
+  }
+  .services-section .service-container .audience-box {
+    height: 65vh;
+  }
+  .services-section .service-container .audience-box h2 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 2rem;
+    padding-left: 1.5rem;
+    text-align: center;
+  }
+  .services-section .service-container .audience-box p {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  .services-section .service-container .audience-box a {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    padding: 1rem 0;
+  }
+  .services-section .service-container .graphic-box {
+    height: 85vh;
+    background-image: url("../images/mobile/image-graphic-design.jpg");
+  }
+  .services-section .service-container .graphic-box h3 {
+    font-size: 1.5rem;
+  }
+  .services-section .service-container .graphic-box p {
+    font-size: 16px;
+    padding: 1rem 0.5rem;
+  }
+  .services-section .service-container .photography-box {
+    height: 85vh;
+    background-image: url("../images/mobile/image-photography.jpg");
+  }
+  .services-section .service-container .photography-box h3 {
+    font-size: 1.5rem;
+  }
+  .services-section .service-container .photography-box p {
+    font-size: 16px;
+    padding: 1rem 0.5rem;
+  }
+  .testimonials-section {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .testimonials-section h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .testimonials-section .client-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimonials-section .client-box .client {
+    margin-top: 4rem;
+  }
+  .testimonials-section .client-box .client .client-desc {
+    padding: 0px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 3rem;
+    color: var(--very-dark-grayish-blue);
+  }
+  .testimonials-section .client-box .client:last-child {
+    margin-bottom: 5rem;
+  }
+  .image-section {
+    height: 50vh;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "one two" "three four";
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .image-section .one {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+    background-size: cover;
+  }
+  .image-section .two {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mobile/image-gallery-orange.jpg);
+    background-size: cover;
+  }
+  .image-section .three {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mobile/image-gallery-cone.jpg);
+    background-size: cover;
+  }
+  .image-section .four {
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+    background-size: cover;
+  }
+  footer .footer-links {
+    width: 80%;
+  }
+  footer .social-links {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 667px) {
+  .navbar .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbar .hamburger {
+    display: none;
+  }
+  .home-section {
+    height: 100vh;
+    background-image: url("../images/desktop/image-header.jpg");
+  }
+  .home-section h1 {
+    font-size: 44px;
+  }
+  .home-section img {
+    margin-top: 0rem;
+  }
+  .services-section .service-container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .services-section .service-container .egg-box {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    height: 65vh;
+  }
+  .services-section .service-container .graphic-box {
+    height: 80vh;
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+  .services-section .service-container .graphic-box p {
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .services-section .service-container .photography-box {
+    height: 80vh;
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
+  .services-section .service-container .photography-box h3 {
+    font-size: 1.5rem;
+  }
+  .services-section .service-container .photography-box p {
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .testimonials-section {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .testimonials-section h3 {
+    font-size: 26px;
+  }
+  .testimonials-section .client-box {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .testimonials-section .client-box .client {
+    margin-bottom: 5rem;
+  }
+  .testimonials-section .client-box .client .client-desc {
+    line-height: 1.2;
+  }
+  .testimonials-section .client-box .client:last-child {
+    margin-bottom: 5rem;
+  }
+  .image-section {
+    height: 50vh;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "one two three four";
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .services-section .service-container .egg-box {
+    height: 80vh;
+  }
+  .services-section .service-container .transform-box {
+    width: 100%;
+    height: 80vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .services-section .service-container .transform-box h2 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 1rem 5.5rem;
+    text-align: start;
+  }
+  .services-section .service-container .transform-box p {
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5;
+    padding: 2.5rem 5.5rem;
+    text-align: start;
+  }
+  .services-section .service-container .transform-box a {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 1rem 5.5rem;
+  }
+  .services-section .service-container .glass-box {
+    width: 100%;
+    height: 80vh;
+  }
+  .services-section .service-container .glass-box img {
+    width: 100%;
+    height: 100%;
+  }
+  .services-section .service-container .audience-box {
+    width: 100%;
+    height: 80vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .services-section .service-container .audience-box h2 {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 1rem 5.5rem;
+    text-align: start;
+  }
+  .services-section .service-container .audience-box p {
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.5;
+    padding: 2.5rem 5.5rem;
+    text-align: start;
+  }
+  .services-section .service-container .audience-box a {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    padding: 1rem 5.5rem;
+  }
+  .services-section .service-container .graphic-box {
+    height: 80vh;
+    background-image: url("../images/desktop/image-graphic-design.jpg");
+  }
+  .services-section .service-container .graphic-box p {
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  .services-section .service-container .photography-box {
+    height: 80vh;
+    background-image: url("../images/desktop/image-photography.jpg");
+  }
+  .services-section .service-container .photography-box h3 {
+    font-size: 1.5rem;
+  }
+  .services-section .service-container .photography-box p {
+    font-size: 16px;
+    padding-top: 1.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+/*# sourceMappingURL=responsive-style.css.map */
