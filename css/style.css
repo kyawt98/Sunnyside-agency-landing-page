@@ -116,40 +116,20 @@ a {
   font-family: 'Fraunces', serif;
 }
 
-.hamburger-menu {
-  display: none;
-}
-
-.hamburger-menu.active {
+.navbar .nav.active {
   width: 85vw;
-  height: 35vh;
-  background: var(--white);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: fixed;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 1rem;
-  margin-right: 2rem;
-  right: 0;
-}
-
-.hamburger-menu.active .hamburger-nav {
+  height: 60vw;
   list-style: none;
-  height: 100%;
-  width: 100%;
+  top: 0;
+  right: 0;
+  margin-right: 5%;
+  margin-top: 8rem;
+  z-index: 2;
+  background: var(--white);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -162,7 +142,7 @@ a {
           justify-content: space-evenly;
 }
 
-.hamburger-menu.active .hamburger-nav a {
+.navbar .nav.active a {
   color: var(--very-dark-grayish-blue);
   padding-top: 0.8rem;
   padding-bottom: 0.8rem;
@@ -171,7 +151,7 @@ a {
   border-radius: 25px;
 }
 
-.hamburger-menu.active .hamburger-nav a:hover {
+.navbar .nav.active a:hover {
   font-size: 16px;
   background: var(--yellow);
   text-transform: uppercase;

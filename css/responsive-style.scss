@@ -170,6 +170,9 @@
         .hamburger{
             display: none;
         }
+        .hamburger-menu{
+            display: none;
+        }
     }
     .home-section{
         height: 100vh;
@@ -245,6 +248,17 @@
 }
 // ###########
 @media screen and (min-width: 1199px){
+    .navbar{
+        .nav{
+            display: flex;
+        }
+        .hamburger{
+            display: none;
+        }
+        .hamburger-menu{
+            display: none;
+        }
+    }
     .services-section{
         .service-container{
             .egg-box{
